@@ -6,16 +6,8 @@
   background-color: black;
   height: 3em;
   align-items: center;
-  /* font-size: 1em; */
   color: white;
-  border-bottom: .125em solid white;
+  border-bottom: .125em solid #aaa;
   display: flex;
   justify-content: center;
 }
-
-/* .App-header > h1 { */
-  /* margin: 1em auto 0; */
-  /* display: inline-table; */
-  /* display: none; */
-  /* margin: 0.65625px 0 0 0; */
-/* } */
