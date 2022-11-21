@@ -1,11 +1,10 @@
-import './app.css';
+import Header from "./components/Header/Header.jsx";
+import "./app.css";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>React-App</h1>
-      </header>
+      <Header h1="Dynamic-Value" />
     </div>
   );
 }

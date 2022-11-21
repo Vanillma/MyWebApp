@@ -1,0 +1,9 @@
+.appHeader {
+  background-color: black;
+  height: 3em;
+  align-items: center;
+  color: white;
+  border-bottom: 0.125em solid #aaa;
+  display: flex;
+  justify-content: center;
+}
