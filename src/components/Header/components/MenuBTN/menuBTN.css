@@ -1,0 +1,25 @@
+.btnWrapper {
+  width: 43px;
+  height: 43px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.btnLines {
+  width: 90%;
+  height: .4em;
+  background-color: red;
+}
+
+
+.btnLines::before {
+  display: block;
+  background-color: lightblue;
+  width: 50%;
+  height: .4em;
+  position: absolute;
+  top: 10%;
+}

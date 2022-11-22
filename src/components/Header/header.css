@@ -5,5 +5,6 @@
   color: white;
   border-bottom: 0.125em solid #aaa;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  /* overflow: hidden; */
 }
