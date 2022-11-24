@@ -1,25 +1,39 @@
 .btnWrapper {
   width: 43px;
   height: 43px;
-  border: 2px solid #fff;
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   position: relative;
+  /* border: 2px solid #fff; */
 }
 
 .btnLines {
-  width: 90%;
-  height: .4em;
-  background-color: red;
+  width: 65%;
+  height: 0.3em;
+  background-color: brown;
+  border-radius: 50%;
 }
 
-
 .btnLines::before {
+  content: "";
   display: block;
-  background-color: lightblue;
-  width: 50%;
-  height: .4em;
+  background-color: #c68958;
+  width: 65%;
+  height: 0.4em;
   position: absolute;
   top: 10%;
+  border-radius: 5px 5px 2px 2px;
+}
+
+.btnLines::after {
+  content: "";
+  display: block;
+  background-color: #c68958;
+  width: 65%;
+  height: 0.5em;
+  position: absolute;
+  bottom: 10%;
+  border-radius: 2px 2px 5px 5px;
 }
