@@ -1,7 +1,6 @@
 .logo {
-  font-size: 1em;
-  margin: 0;
-
+  font-size: 2em;
+  margin: 0 0 0 2px;
 }
 
 .logoLink {
@@ -10,9 +9,14 @@
 
 .logoP1 {
   color: silver;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .logoP2 {
+  display: inline-block;
   color: gold;
-  font-size: .5em;
+  font-size: 1em;
+  position: relative;
+  left: -.2em;
+  font-family: cursive;
 }
