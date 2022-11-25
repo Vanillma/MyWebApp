@@ -1,3 +1,18 @@
+.logo {
+  font-size: 1em;
+  margin: 0;
+
+}
+
 .logoLink {
   text-decoration: none;
+}
+
+.logoP1 {
+  color: silver;
+}
+
+.logoP2 {
+  color: gold;
+  font-size: .5em;
 }
