@@ -1,14 +1,7 @@
-/* .btnWrapper:active > .btnLines::before { */
-/*   transform: translateY(10px); */
-/* } */
-
-/* .btnWrapper:active > .btnLines::after { */
-/*   transform: translateY(-8px); */
-/* } */
 .btnWrapper:hover > .btnLines::before {
-  transform: translateY(10px);
+  transform: translateY(8px);
 }
 
 .btnWrapper:hover > .btnLines::after {
-  transform: translateY(-8px);
+  transform: translateY(-7px);
 }

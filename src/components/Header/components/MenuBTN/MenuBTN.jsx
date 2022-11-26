@@ -2,9 +2,9 @@ import "./menuBTN.css";
 
 function MenuBTN() {
   return (
-    <a href="#" className="btnWrapper">
+    <button className="btnWrapper">
       <div className="btnLines"></div>
-    </a>
+    </button>
   );
 }
 
