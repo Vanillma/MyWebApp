@@ -1,7 +1,7 @@
 .btnWrapper:hover > .btnLines::before {
-  transform: translateY(8px);
+  transform: translateY(10px);
 }
 
 .btnWrapper:hover > .btnLines::after {
-  transform: translateY(-7px);
+  transform: translateY(-8.5px);
 }
