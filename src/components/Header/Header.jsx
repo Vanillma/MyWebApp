@@ -1,13 +1,13 @@
 import MenuBTN from "./components/MenuBTN/MenuBTN";
 
-import PageLogo from "./components/PageLogo/PageLogo";
+import HeaderLogo from "./components/HeaderLogo/HeaderLogo";
 
 import "./header.css";
 
 function Header() {
   return (
     <header className="appHeader">
-      <PageLogo />
+      <HeaderLogo />
       <MenuBTN />
     </header>
   );
