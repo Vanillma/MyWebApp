@@ -1,3 +1,5 @@
+@import "./btnAnimation.css";
+
 .btnWrapper {
   width: 43px;
   height: 43px;
@@ -6,7 +8,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  /* border: 2px solid #fff; */
+  border: 2px solid #fff;
+  /* transition: all .5s ease; */
 }
 
 .btnLines {
@@ -14,6 +17,7 @@
   height: 0.3em;
   background-color: brown;
   border-radius: 50%;
+  /* transition: all .5s ease; */
 }
 
 .btnLines::before {
@@ -25,6 +29,7 @@
   position: absolute;
   top: 10%;
   border-radius: 5px 5px 2px 2px;
+  transition: all .5s ease;
 }
 
 .btnLines::after {
@@ -36,4 +41,5 @@
   position: absolute;
   bottom: 10%;
   border-radius: 2px 2px 5px 5px;
+  transition: all .5s ease;
 }
