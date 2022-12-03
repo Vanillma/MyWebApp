@@ -4,21 +4,22 @@ import "./menuBTN.css";
 
 function MenuBTN() {
   //
-  const [show, setShow] = useState(false);
+  // Set init State.
+  const [toggleMenu, setToggleMenu] = useState(false);
   //
-  // test
-  console.log("1-ShowState: ", show);
-  //
+
   return (
     <>
       <button
-        onClick={() => setShow(true)}
+        onClick={() => setToggleMenu(true)}
         className="btnWrapper"
       >
         <div className="btnLines"></div>
       </button>
-    {console.log("2-ShowState: ", show)}
-      <MenuPage state={show} />
+      <MenuPage
+        toggleMenu={toggleMenu}
+        setToggleMenu={setToggleMenu}
+      />
     </>
   );
 }

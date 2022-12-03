@@ -1,9 +1,19 @@
 import "./menuPage.css";
 
-export default function MenuPage({state}) {
-
-  console.log("T1-props: ", state);
+function MenuPage({ toggleMenu, setToggleMenu }) {
+  //
+  console.log("toggle in menuPage: ", toggleMenu);
+  //
   return (
-    <div className={`menuPage ${state ? "showMenu" : ""}`}>Test</div>
+    <div className={`wrapperMenuPage ${toggleMenu ? "openMenu" : ""}`}>
+      <button
+        onClick={() => setToggleMenu("")}
+        className="closeMenu"
+      >
+        Close
+      </button>
+    </div>
   );
 }
+// export setShowMenu;
+export default MenuPage;

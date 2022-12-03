@@ -4,7 +4,7 @@ import "./header.css";
 
 function Header() {
   return (
-    <header className="appHeader">
+    <header className="header">
       <HeaderLogo />
       <MenuBTN />
     </header>
