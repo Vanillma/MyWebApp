@@ -1,7 +1,9 @@
-export default function MenuPage() {
+import "./menuPage.css";
+
+export default function MenuPage({state}) {
+
+  console.log("T1-props: ", state);
   return (
-    <div className="menuPage">
-      <h2>Menu Page.</h2>
-    </div>
-  )
+    <div className={`menuPage ${state ? "showMenu" : ""}`}>Test</div>
+  );
 }
