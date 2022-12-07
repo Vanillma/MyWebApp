@@ -1,3 +1,5 @@
+@import "closeMenuButton.css";
+
 .wrapperMenuPage {
   position: absolute;
   top: 0;
@@ -6,7 +8,7 @@
   right: 0;
   background-color: lightblue;
   transform: translateX(-100%);
-  transition: all 2s ease;
+  transition: all 500ms ease;
 }
 
 .openMenu {
