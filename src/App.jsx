@@ -6,10 +6,15 @@ import "./app.css";
 
 function App() {
   return (
-    <Container className="App">
-      <Header />
-      <Main />
-    </Container>
+    <div className="App">
+      <Container
+        fluid={true}
+        className="p-0"
+      >
+        <Header />
+        <Main />
+      </Container>
+    </div>
   );
 }
 
