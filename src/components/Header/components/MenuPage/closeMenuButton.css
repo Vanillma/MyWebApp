@@ -1,13 +1,14 @@
 .closeMenuButton {
   appearance: none;
   width: 3.5em;
-  height: 0.5em;
+  height: 0.43em;
   position: absolute;
   left: 0.2em;
   top: 1.5em;
   transform: rotate(45deg);
   border: 1px solid white;
   border-radius: 0.3em;
+  background-color: #555;
 }
 
 .closeMenuButton::after {
