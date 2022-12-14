@@ -9,6 +9,7 @@
   background-color: lightblue;
   transform: translateX(-100%);
   transition: all 500ms ease;
+  z-index: 100;
 }
 
 .openMenu {
