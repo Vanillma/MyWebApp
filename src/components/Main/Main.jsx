@@ -16,21 +16,39 @@ function Main() {
             </Row>
 
             <Row>
-              <Col>
+              <Col xs={6}>
                 <CardConstructor
                   cardTitle="🍕Pizza🍕"
                   cardDes="A Delicious Pizza."
-                  imageSrc="https://www.recipetineats.com/wp-content/uploads/2020/05/Pizza-Crust-without-yeast_5-SQ.jpg?w=500&h=375&crop=1"
+                  imgSrc="https://www.recipetineats.com/wp-content/uploads/2020/05/Pizza-Crust-without-yeast_5-SQ.jpg?w=500&h=375&crop=1"
                   imageAlt="a Delicious Pizza."
                 />
               </Col>
 
-              <Col>
+              <Col xs={6}>
                 <CardConstructor
                   cardTitle="🍝Spaghetti🍝"
                   cardDes="Delicious spaghett."
-                  imageSrc="https://www.goya.com/media/4173/creole-spaghetti.jpg?width=470"
+                  imgSrc="https://www.goya.com/media/4173/creole-spaghetti.jpg?width=470"
                   imageAlt="a Delicious Spaghetti."
+                />
+              </Col>
+
+              <Col xs={6}>
+                <CardConstructor
+                  cardTitle="🍝Spaghetti🍝"
+                  cardDes="Delicious spaghett."
+                  imgSrc="https://www.goya.com/media/4173/creole-spaghetti.jpg?width=470"
+                  imageAlt="a Delicious Spaghetti."
+                />
+              </Col>
+
+              <Col xs={6}>
+                <CardConstructor
+                  cardTitle="🍕Pizza🍕"
+                  cardDes="A Delicious Pizza."
+                  imgSrc="https://www.recipetineats.com/wp-content/uploads/2020/05/Pizza-Crust-without-yeast_5-SQ.jpg?w=500&h=375&crop=1"
+                  imageAlt="a Delicious Pizza."
                 />
               </Col>
             </Row>

@@ -1,21 +1,24 @@
-import { Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./cardConstructor.css";
 
-function CardConstructor({ imageSrc, imageAlt, cardTitle, cardDes }) {
+function CardConstructor({ imgSrc, imgAlt, cardTitle, cardDes }) {
   return (
-    <Card className="cardWrapper">
-      <Card.Img
-        className="cardImage"
-        alt={imageAlt}
-        src={imageSrc}
+    <div className="cardWrapper">
+      <img
+        className="cardImg"
+        alt={imgAlt}
+        src={imgSrc}
       />
 
-      <Card.Body>
-        <Card.Title className="cardTitle">{cardTitle}</Card.Title>
-
-        <Card.Text className="cardDes">{cardDes}</Card.Text>
-      </Card.Body>
-    </Card>
+      <Container className="bodyWrapper">
+        <Row className="cardBody">
+          <Col>
+            <h3 className="cardTitle">{cardTitle}</h3>
+            <p className="cardDes">{cardDes}</p>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

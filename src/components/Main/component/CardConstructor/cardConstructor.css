@@ -6,20 +6,24 @@
 .cardWrapper {
   border: 1px solid #fff;
   border-radius: 5px;
+  background-color: black;
+  margin-bottom: 1rem;
 }
 
-.cardImage {
+.cardImg {
   width: 100%;
   height: auto;
-  border-radius: 3px;
-  /* border-bottom: 2px solid gray; */
+  border-radius: 3.5px 3.5px 0 0;
+  margin-bottom: 5px;
 }
 
-/* .cardTitle { */
-/* margin: 0 0 5px 0; */
-/* } */
+.cardTitle {
+  font-size: 1.15rem;
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: 2px solid #777;
+}
 
 .cardDes {
-/* margin: 0 0 5px 5px; */
-text-align: left;
+  text-align: left;
+  font-size: .8rem;
 }
